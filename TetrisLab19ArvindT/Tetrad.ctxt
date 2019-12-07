@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=grid
+comment0.target=Tetrad(MyBoundedGrid)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ @param\ grid\ is\ the\ grid\ that\ the\ tetrad\ is\ created\ on\n
+comment1.params=gr\ locs
+comment1.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment1.text=\n\ Adds\ the\ blocks\ to\ certain\ locations\ in\ a\ specific\ grid\n\ \n\ @param\ \ gr\ \ \ the\ grid\ to\ add\ the\ blocks\ to\n\ @param\ \ locs\ \ \ array\ of\ locations\ to\ add\ the\ blocks\ to\n
+comment2.params=
+comment2.target=Location[]\ removeBlocks()
+comment2.text=\n\ Removes\ the\ four\ Blocks\ of\ the\ tetrad\ from\ the\ grid\n\ @return\ an\ array\ of\ Locations\ of\ where\ blocks\ were\ removed.\n
+comment3.params=gr\ locs
+comment3.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment3.text=\n\ Checks\ if\ the\ locations\ in\ the\ locations\ array\ is\ empty\ in\ the\ grid.\n\ \n\ @param\ gr\ is\ the\ grid\ in\ which\ to\ check\ if\ the\ locations\ are\ empty\ in.\n\ @param\ locs\ is\ an\ array\ of\ Locations.\n\ @return\ true\ if\ the\ Location\ are\ empty,\ otherwise\n\ \ \ \ \ \ \ \ \ false.\n
+comment4.params=deltaRow\ deltaCol
+comment4.target=boolean\ translate(int,\ int)
+comment4.text=\n\ Translates\ the\ tetrad\ a\ certain\ number\ of\ rows,\ and\ a\ certain\ number\ of\ columns\n\ @param\ deltaRow\ is\ the\ number\ of\ Rows\ to\ move\ the\ tetrad\n\ @param\ deltaCol\ is\ the\ number\ of\ columns\ to\ move\ the\ tetrad\n\ @return\ true\ if\ the\ translation\ was\ successful;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+comment5.params=
+comment5.target=boolean\ rotate()
+comment5.text=\n\ Rotates\ the\ tetrad\ clockwise\ 90\ degrees\ around\ a\ pivot\ point.\n\ \n\ @return\ true\ if\ the\ rotation\ was\ successful;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+numComments=6
